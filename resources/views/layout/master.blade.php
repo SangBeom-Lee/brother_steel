@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
         <!-- css -->
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="/assets/css/main.css" />
 
 
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -14,7 +14,11 @@
     <body class="homepage">
         <div id="page-wrapper">
             <!-- header -->
-            @include('layout.header.header')
+            @if($param['sub'] == 'Y')
+                @include('layout.header.subheader')
+            @else
+                @include('layout.header.header')
+            @endif
 
             <div id="wrap">
                 @yield('content')

@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index'])
     ->name('main');
+
+Route::get('/page/{pageName}', [App\Http\Controllers\SubpageController::class, 'index'])
+    ->name('page');
