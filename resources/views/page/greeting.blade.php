@@ -1,7 +1,16 @@
 @extends('layout.master')
 
 @section('title', '인사말')
+
 @section('sub', 'Y')
+
+@section('open')
+    <body class="no-sidebar is-preload">
+@endsection
+
+@section('close')
+    </body>
+@endsection
 
 @section('content')
     <div class="wrapper style1">
