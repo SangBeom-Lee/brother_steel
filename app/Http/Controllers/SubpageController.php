@@ -22,9 +22,12 @@ class SubpageController extends FrontController
         $param                                  = $request->input();
         $param['sub']                           = "Y";
 
-        $data                                   = $this->$pageName();
+        $data                                   = array();
+        if(method_exists($this, $pageName)){
+            $data                               = $this->$pageName();
+        }
 
-        return view('page.greeting', array(
+        return view('page.'.$pageName, array(
           'param'                               => $param,
           'data'                                => $data
         ));
@@ -36,7 +39,12 @@ class SubpageController extends FrontController
     public function greeting()
     {
         $data                                   = array();
+        return $data;
+    }
 
+    public function organization()
+    {
+        $data                                   = array();
         return $data;
     }
 }
