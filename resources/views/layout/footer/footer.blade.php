@@ -85,22 +85,22 @@
                         </header>
                         <div class="row gtr-25">
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic10.jpg" alt="" /></a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic11.jpg" alt="" /></a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic12.jpg" alt="" /></a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic13.jpg" alt="" /></a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic14.jpg" alt="" /></a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
+                                <a href="#" class="image fit"><img src="/images/pic15.jpg" alt="" /></a>
                             </div>
                         </div>
                     </section>
@@ -140,11 +140,11 @@
     </div>
     
     <!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js" type="module"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js" type="module"></script>

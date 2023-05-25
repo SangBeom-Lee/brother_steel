@@ -1,15 +1,15 @@
 <!-- Header -->
 <div id="header">
 
-  <!-- Inner -->
-  <div class="inner">
-    <header>
-      <h1></h1>
-    </header>
-  </div>
+	<!-- Inner -->
+	<div class="inner">
+		<header>
+		<h1></h1>
+		</header>
+	</div>
 
-  <!-- Nav -->
-  <nav id="nav">
+  	<!-- Nav -->
+  	<nav id="nav">
 		<ul>
 			<li><a href="/">HOME</a></li>
 
